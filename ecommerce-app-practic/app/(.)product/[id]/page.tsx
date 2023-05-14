@@ -36,7 +36,7 @@ function Modal() {
         setIsOpen(false)
         router.back();
   }}
-  classname="relative z-50"
+        className="relative z-50"
     >
       {/* The backdrop, rendered as a fixed sibling to the panel container */}
     <div className="fixed inset-0 bg-black/30" aria-hidden="true" />
